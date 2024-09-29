@@ -87,8 +87,7 @@ animate();
 
 
 const borderGeometry = new THREE.LineSegments(
-    new THREE.EdgesGeometry(new THREE.BoxGeometry(8, 8, 0.1)), 
-    new THREE.LineBasicMaterial({ color: 0x0000ff }) 
+    new THREE.EdgesGeometry(new THREE.BoxGeometry(8, 8, 0.1))
 );
 scene.add(borderGeometry);
 
