@@ -1,0 +1,19 @@
+{
+  "name": "bouncingonthewall",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "three": "^0.169.0",
+    "express": "^4.21.0"
+  }
+}
