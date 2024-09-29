@@ -12,7 +12,7 @@ scene.add(square);
 // Initial settings
 camera.position.z = 5;
 let velocity = getRandomVelocity(); // Get initial random velocity
-let scaleFactor = 0.9; // Scale down by 10% each hit
+let scaleFactor = 0.88; // Scale down by 10% each hit
 let bounces = 0; // Track the number of bounces
 const maxBounces = 9;
 
